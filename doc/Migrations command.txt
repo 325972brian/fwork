@@ -1,0 +1,9 @@
+
+dotnet tool install --global dotnet-ef
+cd C:\Users\MNJL\Documents\01-MboUtrecht_Projecten\Warehouse\src\Warehouse.Infrastructure
+dotnet ef migrations add InitialCreate
+dotnet ef migrations remove
+dotnet ef migrations script
+
+dotnet ef database update
+dotnet ef database drop

@@ -1,0 +1,10 @@
+01-Presentation
+02-WebApi
+03-Domain
+04-Application
+05-Infrastructure
+
+WarehouseApp.WebApi
+WarehouseApp.Application
+WarehouseApp.Domain
+WarehouseApp.Infrastructure
